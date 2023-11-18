@@ -20,6 +20,30 @@ As more and more companies embrace DevOps and virtualization, YAML is quickly be
 
 ### <b>Use Case:</b>
 YAML is best for data-heavy apps that use DevOps pipelines or VMs. It’s also helpful for when other developers on your team will work with this data often and therefore need it to be more readable.
+
+### Salient Features of YAML
+Here are some of the best features YAML has to offer.
+
+Multi-document support
+You can have multiple YAML documents in a single YAML file to make file organization or data parsing easier.
+
+The separation between each document is marked by three dashes (---)
+
+Built-in commenting
+YAML allows you to add comments to files using the hash symbol (#) similar to Python comments.
+
+key: #Here is a single-line comment 
+   - value line 5
+   #Here is a 
+   #multi-line comment
+ - value line 13
+
+Readable syntax
+YAML files use an indentation system similar to Python to show the structure of your program. You’re required to use spaces to create indentation rather than tabs to avoid confusion.
+
+It also cuts much of the “noise” formatting found in JSON and XML files such as quotation marks, brackets, and braces.
+
+Together, these formatting specifications increase the readability of YAML files beyond XML and JSON.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 # yaml
 Digital guide to the YAML framework.
