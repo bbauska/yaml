@@ -7,6 +7,19 @@ More recently, YAML has been used to create automation protocols that can execut
 
 As more and more companies embrace DevOps and virtualization, YAML is quickly becoming a must-have skill for modern developer positions. YAML is also easy to incorporate with existing technologies through the support of popular technologies like Python using PyYAML library, Docker, or Ansible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+## Summary
+  - Items of a list in YAML are represented by preceding it with - (hyphen).
+  - Key value pairs in YAML are represented as <key>:<value>.
+  - YAML is case sensitive.
+  - YAML uses spaces and indentations to define document structure.
+  - To define a YAML file we use either .yml or .yaml as file extension.
+  - Different documents in YAML can be separated using three dashes (---).
+  - You use three dots (...) to mark the end of a document without starting a new one.
+  - A document in block style uses spaces to structure the document.
+  - Flow style makes YAML an extension of JSON. Flow style is a little less human-readable than block style, however it provides more compactness to the document.
+  - Any text after # not enclosed in ''(quotes) or "" (double quotes) is considered a comment.
+  - YAML does not support block or multi-line comments.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 ## YAML vs JSON vs XML
 ### YAML (.yml):
   - Human-readable code
