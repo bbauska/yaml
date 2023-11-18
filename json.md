@@ -6,6 +6,11 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 
 ![image](https://github.com/bbauska/yaml/assets/41387907/afb84a25-bf5c-43b0-8fb2-7e3b71fc6908)
 
+![image](https://github.com/bbauska/yaml/assets/41387907/a88754ae-e5c3-4899-b474-4d64fc11944b)
+
+![image](https://github.com/bbauska/yaml/assets/41387907/b51b8f66-b826-4985-939b-c46525e13f64)
+
+!["do" is a reserved word](https://github.com/bbauska/yaml/assets/41387907/a2896a00-c886-40a3-8e38-8a1b20f94bdd)
 
 https://www.youtube.com/watch?v=TjVcVWB0oFk&list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm
 
