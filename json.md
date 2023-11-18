@@ -141,4 +141,44 @@ ws
 '000A' ws
 '000D' ws
 '0009' ws
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+What is YAML?
+YAML is a data serialization language for storing information in a human-readable form. It originally stood for “Yet Another Markup Language” but has since been changed to “YAML Ain’t Markup Language” to distinguish itself as different from a true markup language.
 
+It is similar to XML and JSON files but uses a more minimalist syntax even while maintaining similar capabilities. YAML is commonly used to create configuration files in Infrastructure as Code (IoC) programs or to manage containers in the DevOps development pipeline.
+
+More recently, YAML has been used to create automation protocols that can execute a series of commands listed in a YAML file. This means your systems can be more independent and responsive without additional developer attention.
+
+As more and more companies embrace DevOps and virtualization, YAML is quickly becoming a must-have skill for modern developer positions. YAML is also easy to incorporate with existing technologies through the support of popular technologies like Python using PyYAML library, Docker, or Ansible.
+
+
+YAML vs JSON vs XML
+YAML (.yml):
+
+Human-readable code
+Minimalist syntax
+Solely designed for data
+Similar inline style to JSON (is a superset of JSON)
+Allows comments
+Strings without quotation marks
+Considered the “cleaner” JSON
+Advanced features (extensible data types, relational anchors, and mapping types preserving key order)
+Use Case: YAML is best for data-heavy apps that use DevOps pipelines or VMs. It’s also helpful for when other developers on your team will work with this data often and therefore need it to be more readable.
+
+JSON
+
+Harder to read
+Explicit, strict syntax requirements
+Similar inline style to YAML (some YAML parsers can read JSON files)
+No comments
+Strings require double quotes
+Use Case: JSON is favored in web development as it’s best for serialization formats and transmitting data over HTTP connections.
+
+XML
+
+Harder to read
+More verbose
+Acts as a markup language, while YAML is for data formatting
+Contains more features than YAML, like tag attributes
+More rigidly defined document schema
+Use Case: XML is best for complex projects that require fine control over validation, schema, and namespace. XML is not human-readable and requires more bandwidth and storage capacity, but offers unparalleled control.
