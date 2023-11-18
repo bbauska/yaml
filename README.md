@@ -16,7 +16,36 @@ YAML is used to store lists or sequences of elements and key-value pairs or mapp
 
   - Key value pairs (also known as Mapping) is an unordered collection of key/value pairs. But, the keys are not unique because they are allowed to have duplicate values. Each element within a mapping is separated with new line followed by colon(:) character.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### Key value pairs
+A key-value pair is a data structure consisting of a key and a value. The key is used to identify the value, and the value can be any type of data.
+<image>
+Key-value pairs are represented using the following syntax:
+<image>
+where <key> represents name and <value> represents data separated by : (the space is mandatory).
+
+Key-value pair example:
+<image>
+The following is the graphical representation of the key value pair:
+
+![image](https://github.com/bbauska/yaml/assets/41387907/6bfabd62-ed2e-4ac7-a69b-f8c23d823494)
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+### List
+A list is a simple data structure consisting of zero or more ordered items. In other words, a list is an ordered collection of data.
+![visualization of list or sequence](https://github.com/bbauska/yaml/assets/41387907/5766947a-f6e4-4882-b28a-0429d76a71ac)
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 ## Summary
