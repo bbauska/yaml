@@ -1,3 +1,25 @@
+# What is YAML?
+YAML is a data serialization language for storing information in a human-readable form. It originally stood for “Yet Another Markup Language” but has since been changed to “YAML Ain’t Markup Language” to distinguish itself as different from a true markup language.
+
+It is similar to XML and JSON files but uses a more minimalist syntax even while maintaining similar capabilities. YAML is commonly used to create configuration files in Infrastructure as Code (IoC) programs or to manage containers in the DevOps development pipeline.
+
+More recently, YAML has been used to create automation protocols that can execute a series of commands listed in a YAML file. This means your systems can be more independent and responsive without additional developer attention.
+
+As more and more companies embrace DevOps and virtualization, YAML is quickly becoming a must-have skill for modern developer positions. YAML is also easy to incorporate with existing technologies through the support of popular technologies like Python using PyYAML library, Docker, or Ansible.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+YAML vs JSON vs XML
+YAML (.yml):
+
+Human-readable code
+Minimalist syntax
+Solely designed for data
+Similar inline style to JSON (is a superset of JSON)
+Allows comments
+Strings without quotation marks
+Considered the “cleaner” JSON
+Advanced features (extensible data types, relational anchors, and mapping types preserving key order)
+Use Case: YAML is best for data-heavy apps that use DevOps pipelines or VMs. It’s also helpful for when other developers on your team will work with this data often and therefore need it to be more readable.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 # yaml
 Digital guide to the YAML framework.
 In 2005, the web developer Dirk Jesse published the responsive CSS framework YAML under the Creative Commons license CC-BY 2.0, which allowed the basic framework to be used for free both privately and commercially. Operators who want to put their web project online under a different license can also acquire a commercial model that gives them free access to the licensing. The focus of the CSS framework has always been on offering users the biggest possible freedom for the design of barrier-free web applications. The current version of the framework (4.2.1) was made available in 2013, and is supported by various content management systems such as WordPress, TYPO3, or Joomla thanks to corresponding CMS integration templates.
