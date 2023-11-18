@@ -18,7 +18,8 @@ As more and more companies embrace DevOps and virtualization, YAML is quickly be
   - Considered the “cleaner” JSON
   - Advanced features (extensible data types, relational anchors, and mapping types preserving key order)
 
-### <b>Use Case:</b>YAML is best for data-heavy apps that use DevOps pipelines or VMs. It’s also helpful for when other developers on your team will work with this data often and therefore need it to be more readable.
+### <b>Use Case:</b>
+YAML is best for data-heavy apps that use DevOps pipelines or VMs. It’s also helpful for when other developers on your team will work with this data often and therefore need it to be more readable.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 # yaml
 Digital guide to the YAML framework.
