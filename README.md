@@ -24,26 +24,92 @@ YAML is best for data-heavy apps that use DevOps pipelines or VMs. It’s also h
 ### Salient Features of YAML
 Here are some of the best features YAML has to offer.
 
-Multi-document support
+### Multi-document support
 You can have multiple YAML documents in a single YAML file to make file organization or data parsing easier.
 
 The separation between each document is marked by three dashes (---)
+<image>
 
-Built-in commenting
+### Built-in commenting
 YAML allows you to add comments to files using the hash symbol (#) similar to Python comments.
 
-key: #Here is a single-line comment 
-   - value line 5
-   #Here is a 
-   #multi-line comment
- - value line 13
+<image>
 
-Readable syntax
+### Readable syntax
 YAML files use an indentation system similar to Python to show the structure of your program. You’re required to use spaces to create indentation rather than tabs to avoid confusion.
 
 It also cuts much of the “noise” formatting found in JSON and XML files such as quotation marks, brackets, and braces.
 
 Together, these formatting specifications increase the readability of YAML files beyond XML and JSON.
+<yaml example>
+
+<json example>
+
+## Implicit and Explicit Typing
+YAML offers versatility in typing by auto-detecting data types while also supporting explicit typing options. To tag data as a certain type, simply include !![typeName] before the value.
+<image>
+
+### No executable commands
+As a data-representation format, YAML does not contain executables. It’s therefore very safe to exchange YAML files with external parties.
+
+YAML must be integrated with other languages, like Perl or Java, to add executables.
+
+## YAML Syntax
+YAML has a few basic concepts that make up the majority of data.
+
+
+### Key-value pairs
+In general, most things in a YAML file are a form of key-value pair where the key represents the pair’s name and the value represents the data linked to that name. Key-value pairs are the basis for all other YAML constructions.
+<image>
+
+### Scalars and mapping
+Scalars represent a single stored value. Scalars are assigned to key names using mapping. You define a mapping with a name, colon, and space, then a value for it to hold.
+
+YAML supports common types like integer and floating-point numeric values, as well as non-numeric types Boolean and String.
+
+Each can be represented in different ways, like hexadecimal, octal, or exponent. There are also special types for mathematical concepts like infinity, -infinity, and Not a Number (NAN)
+<image>
+
+### String
+Strings are a collection of characters that represent a sentence or phrase. You either use | to print each string as a new line or > to print it as a paragraph.
+
+Strings in YAML do not need to be in double-quotes.
+<image>
+
+### Sequence
+Sequences are data structures similar to a list or array that hold multiple values under the same key. They’re defined using a block or inline flow style.
+
+Block style uses spaces to structure the document. It’s easier to read but is less compact compared to flow style.
+<image-1>
+
+Flow style allows you to write sequences inline using square brackets, similar to an array declaration in a programming language like Python or JavaScript. Flow style is more compact but harder to read at a glance.
+<image-2>
+
+### Dictionaries
+Dictionaries are collections of key-value pairs all nested under the same subgroup. They’re helpful to divide data into logical categories for later use.
+
+Dictionaries are defined like mappings in that you enter the dictionary name, a colon, and a space followed by 1 or more indented key-value pairs.
+
+<blockquote>
+  Dictionaries can contain more complex structures as well, such as sequences. Nesting sequences is a good trick to represent complex relational data.
+</blockquote>
+
+## Advanced concepts to learn next
+Congratulations on taking your first step toward learning YAML. While often overlooked, YAML is a simple and effective tool to pick up for your DevOps toolkit.
+
+### Some next advanced topics to look at are:
+
+  * Anchors
+  * Templates
+  * YAML with external tools (Docker, Ansible, etc.)
+  * Advanced sequence/mapping types
+  * Advanced data types (timestamp, null, etc.)
+
+To help you pick up YAML fast, Educative has created the course <a href="https://www.educative.io/courses/introduction-to-yaml">Introduction to YAML</a>. This mini-course covers all YAML syntax in-depth from simple mappings to advanced anchoring techniques.
+
+After less than an hour, you’ll have cracked all the essential YAML skills and earned a YAML certification for your DevOps resume.
+
+Happy learning!
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 # yaml
 Digital guide to the YAML framework.
