@@ -7,6 +7,18 @@ More recently, YAML has been used to create automation protocols that can execut
 
 As more and more companies embrace DevOps and virtualization, YAML is quickly becoming a must-have skill for modern developer positions. YAML is also easy to incorporate with existing technologies through the support of popular technologies like Python using PyYAML library, Docker, or Ansible.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+In this chapter, you will learn the basic syntax of YAML.
+
+## YAML basics
+YAML is used to store lists or sequences of elements and key-value pairs or mappings.
+
+  - List (also known as Sequence) is an ordered collection of items. A sequence is represented using square brackets ([]). Each item within the sequence is separated with a new line followed by comma (, ) character. An item can be of any type like strings, numbers or maps etc.
+
+  - Key value pairs (also known as Mapping) is an unordered collection of key/value pairs. But, the keys are not unique because they are allowed to have duplicate values. Each element within a mapping is separated with new line followed by colon(:) character.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 ## Summary
   - Items of a list in YAML are represented by preceding it with - (hyphen).
   - Key value pairs in YAML are represented as <key>:<value>.
