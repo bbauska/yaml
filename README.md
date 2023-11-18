@@ -116,7 +116,7 @@ YAML Frameworks and Tools:
   - Chronicle-Wire    # Java Implementation
 
   JavaScript:
-  - yaml          # JavaScript parser/stringifier (YAML 1.2, 1.1) (YTS)
+  - yaml          # JavaScript parser/stringifier (YAML 1.2, 1.1) (YTS) https://github.com/eemeli/yaml
   - js-yaml       # Native PyYAML port to JavaScript (Demo)
 
   Nim:
