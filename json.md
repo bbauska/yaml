@@ -1,5 +1,12 @@
 JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 
+![JSON](https://github.com/bbauska/yaml/assets/41387907/b9cf0e09-5d5a-4080-8cf6-dd3aa60d2c2f)
+
+![image](https://github.com/bbauska/yaml/assets/41387907/c6891e72-0835-488b-b497-663ff33ba9ec)
+
+![image](https://github.com/bbauska/yaml/assets/41387907/afb84a25-bf5c-43b0-8fb2-7e3b71fc6908)
+
+
 https://www.youtube.com/watch?v=TjVcVWB0oFk&list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm
 
 JSON is built on two structures:
